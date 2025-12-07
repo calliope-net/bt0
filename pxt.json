@@ -2,8 +2,7 @@
     "name": "bt0",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "v2": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
