@@ -1,0 +1,34 @@
+{
+    "name": "bt0",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.1.7",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "pairing_mode": 0,
+                    "device_info_service": 0
+                }
+            }
+        }
+    }
+}
